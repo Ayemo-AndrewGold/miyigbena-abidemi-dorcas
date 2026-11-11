@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import GlobalWidgets from "@/layout/GlobalWidgets";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = siteUrl ? new URL(siteUrl) : undefined;
@@ -40,7 +41,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className="min-h-full antialiased">
-      <body className="min-h-screen">{children}</body>
+      <body className="min-h-screen">
+        
+        {children}
+        <GlobalWidgets />
+
+      </body>
     </html>
   );
 }

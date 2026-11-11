@@ -390,11 +390,19 @@ export default function Home() {
             >
               070 6671 6092 <ArrowIcon />
             </a>
+            <a
+              className="inline-flex items-center gap-3 text-[var(--muted)] transition-colors hover:text-[var(--accent)]"
+              href="https://www.linkedin.com/in/miyigbena-abidemi-dorcas-05095a217/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              LinkedIn profile <ArrowIcon />
+            </a>
           </div>
         </section>
       </main>
 
-      <footer className="border-t border-[var(--line)]">
+      <footer className="border-t border-[var(--line)]" id="footer">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-6 text-xs text-[var(--muted)] sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-12">
           <p>Miyigbena Abidemi Dorcas · Pharmacist</p>
           <a
