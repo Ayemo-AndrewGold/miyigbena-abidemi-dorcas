@@ -66,7 +66,7 @@ export default function WhatsAppButton() {
         >
             {/* Bubble body */}
             <div className="relative w-max max-w-[150px] rounded-[14px] bg-white px-4 py-3 text-center text-[13px] font-medium italic leading-snug text-gray-700 [text-wrap:balance]">
-              Chat live with our team now!
+              Start a conversation with me now!
 
               {/* Dismiss button (sits on the top-right corner) */}
               <button
