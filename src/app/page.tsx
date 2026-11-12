@@ -147,7 +147,7 @@ export default function Home() {
                 fill
                 priority
                 sizes="(max-width: 640px) 78vw, (max-width: 1024px) 55vw, 34rem"
-                src="/miyigbena-portrait.jpg"
+                src="/miyigbena-portrait1.jpg"
               />
             </div>
             <div className="relative z-10 mt-4 flex items-center justify-between border-t border-[var(--line)] pt-4 text-xs uppercase tracking-[0.14em] text-[var(--muted)]">
